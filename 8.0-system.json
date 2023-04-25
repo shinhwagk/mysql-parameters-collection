@@ -1,0 +1,8657 @@
+[
+    [
+        {
+            "Command-Line Format": "--activate-all-roles-on-login[={OFF|ON}]"
+        },
+        {
+            "System Variable": "activate_all_roles_on_login"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-address=addr"
+        },
+        {
+            "Introduced": "8.0.14"
+        },
+        {
+            "System Variable": "admin_address"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-port=port_num"
+        },
+        {
+            "Introduced": "8.0.14"
+        },
+        {
+            "System Variable": "admin_port"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "33062"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "65535"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-ssl-ca=file_name"
+        },
+        {
+            "Introduced": "8.0.21"
+        },
+        {
+            "System Variable": "admin_ssl_ca"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-ssl-capath=dir_name"
+        },
+        {
+            "Introduced": "8.0.21"
+        },
+        {
+            "System Variable": "admin_ssl_capath"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Directory name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-ssl-cert=file_name"
+        },
+        {
+            "Introduced": "8.0.21"
+        },
+        {
+            "System Variable": "admin_ssl_cert"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-ssl-cipher=name"
+        },
+        {
+            "Introduced": "8.0.21"
+        },
+        {
+            "System Variable": "admin_ssl_cipher"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-ssl-crl=file_name"
+        },
+        {
+            "Introduced": "8.0.21"
+        },
+        {
+            "System Variable": "admin_ssl_crl"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-ssl-crlpath=dir_name"
+        },
+        {
+            "Introduced": "8.0.21"
+        },
+        {
+            "System Variable": "admin_ssl_crlpath"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Directory name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-ssl-key=file_name"
+        },
+        {
+            "Introduced": "8.0.21"
+        },
+        {
+            "System Variable": "admin_ssl_key"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-tls-ciphersuites=ciphersuite_list"
+        },
+        {
+            "Introduced": "8.0.21"
+        },
+        {
+            "System Variable": "admin_tls_ciphersuites"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--admin-tls-version=protocol_list"
+        },
+        {
+            "Introduced": "8.0.21"
+        },
+        {
+            "System Variable": "admin_tls_version"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value (\u2265 8.0.28)": "TLSv1.2,TLSv1.3"
+        },
+        {
+            "Default Value (\u2265 8.0.21, \u2264 8.0.27)": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--authentication-policy=value"
+        },
+        {
+            "Introduced": "8.0.27"
+        },
+        {
+            "System Variable": "authentication_policy"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "*,,"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--authentication-windows-log-level=#"
+        },
+        {
+            "System Variable": "authentication_windows_log_level"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "2"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--authentication-windows-use-principal-name[={OFF|ON}]"
+        },
+        {
+            "System Variable": "authentication_windows_use_principal_name"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--autocommit[={OFF|ON}]"
+        },
+        {
+            "System Variable": "autocommit"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--automatic-sp-privileges[={OFF|ON}]"
+        },
+        {
+            "System Variable": "automatic_sp_privileges"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--auto-generate-certs[={OFF|ON}]"
+        },
+        {
+            "System Variable": "auto_generate_certs"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--avoid-temporal-upgrade[={OFF|ON}]"
+        },
+        {
+            "Deprecated": "Yes"
+        },
+        {
+            "System Variable": "avoid_temporal_upgrade"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--back-log=#"
+        },
+        {
+            "System Variable": "back_log"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "-1 (signifies autosizing; do not assign this literal value)"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "65535"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--basedir=dir_name"
+        },
+        {
+            "System Variable": "basedir"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Directory name"
+        },
+        {
+            "Default Value": "parent of mysqld installation directory"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--big-tables[={OFF|ON}]"
+        },
+        {
+            "System Variable": "big_tables"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--bind-address=addr"
+        },
+        {
+            "System Variable": "bind_address"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "*"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--block-encryption-mode=#"
+        },
+        {
+            "System Variable": "block_encryption_mode"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "aes-128-ecb"
+        }
+    ],
+    [
+        {
+            "Introduced": "8.0.31"
+        },
+        {
+            "System Variable": "build_id"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Platform Specific": "Linux"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--bulk-insert-buffer-size=#"
+        },
+        {
+            "System Variable": "bulk_insert_buffer_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "8388608"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        },
+        {
+            "Unit": "bytes/thread"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--caching-sha2-password-digest-rounds=#"
+        },
+        {
+            "Introduced": "8.0.24"
+        },
+        {
+            "System Variable": "caching_sha2_password_digest_rounds"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "5000"
+        },
+        {
+            "Minimum Value": "5000"
+        },
+        {
+            "Maximum Value": "4095000"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--caching-sha2-password-auto-generate-rsa-keys[={OFF|ON}]"
+        },
+        {
+            "System Variable": "caching_sha2_password_auto_generate_rsa_keys"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--caching-sha2-password-private-key-path=file_name"
+        },
+        {
+            "System Variable": "caching_sha2_password_private_key_path"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "private_key.pem"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--caching-sha2-password-public-key-path=file_name"
+        },
+        {
+            "System Variable": "caching_sha2_password_public_key_path"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "public_key.pem"
+        }
+    ],
+    [
+        {
+            "System Variable": "character_set_client"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "utf8mb4"
+        }
+    ],
+    [
+        {
+            "System Variable": "character_set_connection"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "utf8mb4"
+        }
+    ],
+    [
+        {
+            "System Variable": "character_set_database"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "utf8mb4"
+        },
+        {
+            "Footnote": "This option is dynamic, but should be set only by server. You should not set this variable\n                            manually."
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--character-set-filesystem=name"
+        },
+        {
+            "System Variable": "character_set_filesystem"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "binary"
+        }
+    ],
+    [
+        {
+            "System Variable": "character_set_results"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "utf8mb4"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--character-set-server=name"
+        },
+        {
+            "System Variable": "character_set_server"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "utf8mb4"
+        }
+    ],
+    [
+        {
+            "System Variable": "character_set_system"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "utf8mb3"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--character-sets-dir=dir_name"
+        },
+        {
+            "System Variable": "character_sets_dir"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Directory name"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--check-proxy-users[={OFF|ON}]"
+        },
+        {
+            "System Variable": "check_proxy_users"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "System Variable": "collation_connection"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "System Variable": "collation_database"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "utf8mb4_0900_ai_ci"
+        },
+        {
+            "Footnote": "This option is dynamic, but should be set only by server. You should not set this variable\n                            manually."
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--collation-server=name"
+        },
+        {
+            "System Variable": "collation_server"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "utf8mb4_0900_ai_ci"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--completion-type=#"
+        },
+        {
+            "System Variable": "completion_type"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "NO_CHAIN"
+        },
+        {
+            "Valid Values": "NO_CHAIN\nCHAIN\nRELEASE\n0\n1\n2"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--concurrent-insert[=value]"
+        },
+        {
+            "System Variable": "concurrent_insert"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "AUTO"
+        },
+        {
+            "Valid Values": "NEVER\nAUTO\nALWAYS\n0\n1\n2"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--connect-timeout=#"
+        },
+        {
+            "System Variable": "connect_timeout"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "10"
+        },
+        {
+            "Minimum Value": "2"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--connection-memory-chunk-size=#"
+        },
+        {
+            "Introduced": "8.0.28"
+        },
+        {
+            "System Variable": "connection_memory_chunk_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value (\u2265 8.0.34)": "8192"
+        },
+        {
+            "Default Value (\u2265 8.0.28, \u2264 8.0.33)": "8912"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "536870912"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--connection-memory-limit=#"
+        },
+        {
+            "Introduced": "8.0.28"
+        },
+        {
+            "System Variable": "connection_memory_limit"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "18446744073709551615"
+        },
+        {
+            "Minimum Value": "2097152"
+        },
+        {
+            "Maximum Value": "18446744073709551615"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "System Variable": "core_file"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--create-admin-listener-thread[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.14"
+        },
+        {
+            "System Variable": "create_admin_listener_thread"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--cte-max-recursion-depth=#"
+        },
+        {
+            "System Variable": "cte_max_recursion_depth"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1000"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--datadir=dir_name"
+        },
+        {
+            "System Variable": "datadir"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Directory name"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--debug[=debug_options]"
+        },
+        {
+            "System Variable": "debug"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value (Unix)": "d:t:i:o,/tmp/mysqld.trace"
+        },
+        {
+            "Default Value (Windows)": "d:t:i:O,\\mysqld.trace"
+        }
+    ],
+    [
+        {
+            "System Variable": "debug_sync"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--default-authentication-plugin=plugin_name"
+        },
+        {
+            "Deprecated": "8.0.27"
+        },
+        {
+            "System Variable": "default_authentication_plugin"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "caching_sha2_password"
+        },
+        {
+            "Valid Values": "mysql_native_password\nsha256_password\ncaching_sha2_password"
+        }
+    ],
+    [
+        {
+            "System Variable": "default_collation_for_utf8mb4"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Valid Values": "utf8mb4_0900_ai_ci\nutf8mb4_general_ci"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--default-password-lifetime=#"
+        },
+        {
+            "System Variable": "default_password_lifetime"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "65535"
+        },
+        {
+            "Unit": "days"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--default-storage-engine=name"
+        },
+        {
+            "System Variable": "default_storage_engine"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "InnoDB"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--default-table-encryption[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.16"
+        },
+        {
+            "System Variable": "default_table_encryption"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--default-tmp-storage-engine=name"
+        },
+        {
+            "System Variable": "default_tmp_storage_engine"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "InnoDB"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--default-week-format=#"
+        },
+        {
+            "System Variable": "default_week_format"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "7"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--delay-key-write[={OFF|ON|ALL}]"
+        },
+        {
+            "System Variable": "delay_key_write"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "ON"
+        },
+        {
+            "Valid Values": "OFF\nON\nALL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--delayed-insert-limit=#"
+        },
+        {
+            "Deprecated": "Yes"
+        },
+        {
+            "System Variable": "delayed_insert_limit"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "100"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--delayed-insert-timeout=#"
+        },
+        {
+            "Deprecated": "Yes"
+        },
+        {
+            "System Variable": "delayed_insert_timeout"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "300"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--delayed-queue-size=#"
+        },
+        {
+            "Deprecated": "Yes"
+        },
+        {
+            "System Variable": "delayed_queue_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1000"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--disabled-storage-engines=engine[,engine]..."
+        },
+        {
+            "System Variable": "disabled_storage_engines"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "empty string"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--disconnect-on-expired-password[={OFF|ON}]"
+        },
+        {
+            "System Variable": "disconnect_on_expired_password"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--div-precision-increment=#"
+        },
+        {
+            "System Variable": "div_precision_increment"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "4"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "30"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--dragnet.log-error-filter-rules=value"
+        },
+        {
+            "System Variable": "dragnet.log_error_filter_rules"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "IF prio>=INFORMATION THEN drop. IF EXISTS source_line THEN unset source_line."
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--enterprise-encryption.maximum-rsa-key-size=#"
+        },
+        {
+            "Introduced": "8.0.30"
+        },
+        {
+            "System Variable": "enterprise_encryption.maximum_rsa_key_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "4096"
+        },
+        {
+            "Minimum Value": "2048"
+        },
+        {
+            "Maximum Value": "16384"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--enterprise-encryption.rsa_support_legacy_padding[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.30"
+        },
+        {
+            "System Variable": "enterprise_encryption.rsa_support_legacy_padding"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--end-markers-in-json[={OFF|ON}]"
+        },
+        {
+            "System Variable": "end_markers_in_json"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--eq-range-index-dive-limit=#"
+        },
+        {
+            "System Variable": "eq_range_index_dive_limit"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "200"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--event-scheduler[=value]"
+        },
+        {
+            "System Variable": "event_scheduler"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "ON"
+        },
+        {
+            "Valid Values": "ON\nOFF\nDISABLED"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--explain-format=format"
+        },
+        {
+            "Introduced": "8.0.32"
+        },
+        {
+            "System Variable": "explain_format"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "TRADITIONAL"
+        },
+        {
+            "Valid Values": "JSON\nTREE\nDEFAULT"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--explicit-defaults-for-timestamp[={OFF|ON}]"
+        },
+        {
+            "Deprecated": "Yes"
+        },
+        {
+            "System Variable": "explicit_defaults_for_timestamp"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "System Variable": "external_user"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--flush[={OFF|ON}]"
+        },
+        {
+            "System Variable": "flush"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--flush-time=#"
+        },
+        {
+            "System Variable": "flush_time"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "System Variable": "foreign_key_checks"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ft-boolean-syntax=name"
+        },
+        {
+            "System Variable": "ft_boolean_syntax"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "+ -><()~*:\"\"&|"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ft-max-word-len=#"
+        },
+        {
+            "System Variable": "ft_max_word_len"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "84"
+        },
+        {
+            "Minimum Value": "10"
+        },
+        {
+            "Maximum Value": "84"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ft-min-word-len=#"
+        },
+        {
+            "System Variable": "ft_min_word_len"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "4"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "82"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ft-query-expansion-limit=#"
+        },
+        {
+            "System Variable": "ft_query_expansion_limit"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "20"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "1000"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ft-stopword-file=file_name"
+        },
+        {
+            "System Variable": "ft_stopword_file"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--general-log[={OFF|ON}]"
+        },
+        {
+            "System Variable": "general_log"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--general-log-file=file_name"
+        },
+        {
+            "System Variable": "general_log_file"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "host_name.log"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--generated-random-password-length=#"
+        },
+        {
+            "Introduced": "8.0.18"
+        },
+        {
+            "System Variable": "generated_random_password_length"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "20"
+        },
+        {
+            "Minimum Value": "5"
+        },
+        {
+            "Maximum Value": "255"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--global-connection-memory-limit=#"
+        },
+        {
+            "Introduced": "8.0.28"
+        },
+        {
+            "System Variable": "global_connection_memory_limit"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "18446744073709551615"
+        },
+        {
+            "Minimum Value": "16777216"
+        },
+        {
+            "Maximum Value": "18446744073709551615"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--global-connection-memory-tracking={TRUE|FALSE}"
+        },
+        {
+            "Introduced": "8.0.28"
+        },
+        {
+            "System Variable": "global_connection_memory_tracking"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "FALSE"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--group-concat-max-len=#"
+        },
+        {
+            "System Variable": "group_concat_max_len"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1024"
+        },
+        {
+            "Minimum Value": "4"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        }
+    ],
+    [
+        {
+            "Deprecated": "8.0.26"
+        },
+        {
+            "System Variable": "have_ssl"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Valid Values": "YES (SSL support available)\nDISABLED (SSL support was compiled into\n                                server, but server was not started with necessary options to enable it)"
+        }
+    ],
+    [
+        {
+            "System Variable": "have_statement_timeout"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--histogram-generation-max-mem-size=#"
+        },
+        {
+            "System Variable": "histogram_generation_max_mem_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "20000000"
+        },
+        {
+            "Minimum Value": "1000000"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--host-cache-size=#"
+        },
+        {
+            "System Variable": "host_cache_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "-1 (signifies autosizing; do not assign this literal value)"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "65536"
+        }
+    ],
+    [
+        {
+            "System Variable": "hostname"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--init-connect=name"
+        },
+        {
+            "System Variable": "init_connect"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--information-schema-stats-expiry=#"
+        },
+        {
+            "System Variable": "information_schema_stats_expiry"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "86400"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--init-file=file_name"
+        },
+        {
+            "System Variable": "init_file"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--interactive-timeout=#"
+        },
+        {
+            "System Variable": "interactive_timeout"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "28800"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--internal-tmp-disk-storage-engine=#"
+        },
+        {
+            "Removed": "8.0.16"
+        },
+        {
+            "System Variable": "internal_tmp_disk_storage_engine"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "INNODB"
+        },
+        {
+            "Valid Values": "MYISAM\nINNODB"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--internal-tmp-mem-storage-engine=#"
+        },
+        {
+            "System Variable": "internal_tmp_mem_storage_engine"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "TempTable"
+        },
+        {
+            "Valid Values": "MEMORY\nTempTable"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--join-buffer-size=#"
+        },
+        {
+            "System Variable": "join_buffer_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "262144"
+        },
+        {
+            "Minimum Value": "128"
+        },
+        {
+            "Maximum Value (Windows)": "4294967168"
+        },
+        {
+            "Maximum Value (Other, 64-bit platforms)": "18446744073709551488"
+        },
+        {
+            "Maximum Value (Other, 32-bit platforms)": "4294967168"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "128"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--keep-files-on-create[={OFF|ON}]"
+        },
+        {
+            "System Variable": "keep_files_on_create"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--key-buffer-size=#"
+        },
+        {
+            "System Variable": "key_buffer_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "8388608"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "OS_PER_PROCESS_LIMIT"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--key-cache-age-threshold=#"
+        },
+        {
+            "System Variable": "key_cache_age_threshold"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "300"
+        },
+        {
+            "Minimum Value": "100"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551516"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967196"
+        },
+        {
+            "Block Size": "100"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--key-cache-block-size=#"
+        },
+        {
+            "System Variable": "key_cache_block_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1024"
+        },
+        {
+            "Minimum Value": "512"
+        },
+        {
+            "Maximum Value": "16384"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "512"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--key-cache-division-limit=#"
+        },
+        {
+            "System Variable": "key_cache_division_limit"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "100"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "100"
+        }
+    ],
+    [
+        {
+            "System Variable": "large_files_support"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--large-pages[={OFF|ON}]"
+        },
+        {
+            "System Variable": "large_pages"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Platform Specific": "Linux"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "System Variable": "large_page_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "65535"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--lc-messages=name"
+        },
+        {
+            "System Variable": "lc_messages"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "en_US"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--lc-messages-dir=dir_name"
+        },
+        {
+            "System Variable": "lc_messages_dir"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Directory name"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--lc-time-names=value"
+        },
+        {
+            "System Variable": "lc_time_names"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "System Variable": "license"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "GPL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--local-infile[={OFF|ON}]"
+        },
+        {
+            "System Variable": "local_infile"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--lock-wait-timeout=#"
+        },
+        {
+            "System Variable": "lock_wait_timeout"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "31536000"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "System Variable": "locked_in_memory"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-error[=file_name]"
+        },
+        {
+            "System Variable": "log_error"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-error-services=value"
+        },
+        {
+            "System Variable": "log_error_services"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "log_filter_internal; log_sink_internal"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-error-suppression-list=value"
+        },
+        {
+            "Introduced": "8.0.13"
+        },
+        {
+            "System Variable": "log_error_suppression_list"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "empty string"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-error-verbosity=#"
+        },
+        {
+            "System Variable": "log_error_verbosity"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "2"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "3"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-output=name"
+        },
+        {
+            "System Variable": "log_output"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Set"
+        },
+        {
+            "Default Value": "FILE"
+        },
+        {
+            "Valid Values": "TABLE\nFILE\nNONE"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-queries-not-using-indexes[={OFF|ON}]"
+        },
+        {
+            "System Variable": "log_queries_not_using_indexes"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-slow-admin-statements[={OFF|ON}]"
+        },
+        {
+            "System Variable": "log_slow_admin_statements"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-slow-extra[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.14"
+        },
+        {
+            "System Variable": "log_slow_extra"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-syslog[={OFF|ON}]"
+        },
+        {
+            "Deprecated": "Yes (removed in 8.0.13)"
+        },
+        {
+            "System Variable": "log_syslog"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON (when error logging to system log is enabled)"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-syslog-facility=value"
+        },
+        {
+            "Removed": "8.0.13"
+        },
+        {
+            "System Variable": "log_syslog_facility"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "daemon"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-syslog-include-pid[={OFF|ON}]"
+        },
+        {
+            "Removed": "8.0.13"
+        },
+        {
+            "System Variable": "log_syslog_include_pid"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-syslog-tag=tag"
+        },
+        {
+            "Removed": "8.0.13"
+        },
+        {
+            "System Variable": "log_syslog_tag"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "empty string"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-timestamps=#"
+        },
+        {
+            "System Variable": "log_timestamps"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "UTC"
+        },
+        {
+            "Valid Values": "UTC\nSYSTEM"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-throttle-queries-not-using-indexes=#"
+        },
+        {
+            "System Variable": "log_throttle_queries_not_using_indexes"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--long-query-time=#"
+        },
+        {
+            "System Variable": "long_query_time"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Numeric"
+        },
+        {
+            "Default Value": "10"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--low-priority-updates[={OFF|ON}]"
+        },
+        {
+            "System Variable": "low_priority_updates"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "System Variable": "lower_case_file_system"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--lower-case-table-names[=#]"
+        },
+        {
+            "System Variable": "lower_case_table_names"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value (macOS)": "2"
+        },
+        {
+            "Default Value (Unix)": "0"
+        },
+        {
+            "Default Value (Windows)": "1"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "2"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--mandatory-roles=value"
+        },
+        {
+            "System Variable": "mandatory_roles"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "empty string"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-allowed-packet=#"
+        },
+        {
+            "System Variable": "max_allowed_packet"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "67108864"
+        },
+        {
+            "Minimum Value": "1024"
+        },
+        {
+            "Maximum Value": "1073741824"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-connect-errors=#"
+        },
+        {
+            "System Variable": "max_connect_errors"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "100"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-connections=#"
+        },
+        {
+            "System Variable": "max_connections"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "151"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "100000"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-delayed-threads=#"
+        },
+        {
+            "Deprecated": "Yes"
+        },
+        {
+            "System Variable": "max_delayed_threads"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "20"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "16384"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-digest-length=#"
+        },
+        {
+            "System Variable": "max_digest_length"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1024"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "1048576"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-error-count=#"
+        },
+        {
+            "System Variable": "max_error_count"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1024"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "65535"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-execution-time=#"
+        },
+        {
+            "System Variable": "max_execution_time"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        },
+        {
+            "Unit": "milliseconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-heap-table-size=#"
+        },
+        {
+            "System Variable": "max_heap_table_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "16777216"
+        },
+        {
+            "Minimum Value": "16384"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709550592"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294966272"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "Deprecated": "Yes"
+        },
+        {
+            "System Variable": "max_insert_delayed_threads"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "20"
+        },
+        {
+            "Maximum Value": "16384"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-join-size=#"
+        },
+        {
+            "System Variable": "max_join_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "18446744073709551615"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "18446744073709551615"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-length-for-sort-data=#"
+        },
+        {
+            "Deprecated": "8.0.20"
+        },
+        {
+            "System Variable": "max_length_for_sort_data"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "4096"
+        },
+        {
+            "Minimum Value": "4"
+        },
+        {
+            "Maximum Value": "8388608"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-points-in-geometry=#"
+        },
+        {
+            "System Variable": "max_points_in_geometry"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "65536"
+        },
+        {
+            "Minimum Value": "3"
+        },
+        {
+            "Maximum Value": "1048576"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-prepared-stmt-count=#"
+        },
+        {
+            "System Variable": "max_prepared_stmt_count"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "16382"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value (\u2265 8.0.18)": "4194304"
+        },
+        {
+            "Maximum Value (\u2264 8.0.17)": "1048576"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-seeks-for-key=#"
+        },
+        {
+            "System Variable": "max_seeks_for_key"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value (Windows)": "4294967295"
+        },
+        {
+            "Default Value (Other, 64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Default Value (Other, 32-bit platforms)": "4294967295"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value (Windows)": "4294967295"
+        },
+        {
+            "Maximum Value (Other, 64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (Other, 32-bit platforms)": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-sort-length=#"
+        },
+        {
+            "System Variable": "max_sort_length"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1024"
+        },
+        {
+            "Minimum Value": "4"
+        },
+        {
+            "Maximum Value": "8388608"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-sp-recursion-depth[=#]"
+        },
+        {
+            "System Variable": "max_sp_recursion_depth"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "255"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-user-connections=#"
+        },
+        {
+            "System Variable": "max_user_connections"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-write-lock-count=#"
+        },
+        {
+            "System Variable": "max_write_lock_count"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value (Windows)": "4294967295"
+        },
+        {
+            "Default Value (Other, 64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Default Value (Other, 32-bit platforms)": "4294967295"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value (Windows)": "4294967295"
+        },
+        {
+            "Maximum Value (Other, 64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (Other, 32-bit platforms)": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--mecab-rc-file=file_name"
+        },
+        {
+            "System Variable": "mecab_rc_file"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--metadata-locks-cache-size=#"
+        },
+        {
+            "Deprecated": "Yes (removed in 8.0.13)"
+        },
+        {
+            "System Variable": "metadata_locks_cache_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1024"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "1048576"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--metadata-locks-hash-instances=#"
+        },
+        {
+            "Deprecated": "Yes (removed in 8.0.13)"
+        },
+        {
+            "System Variable": "metadata_locks_hash_instances"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "8"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "1024"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--min-examined-row-limit=#"
+        },
+        {
+            "System Variable": "min_examined_row_limit"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--myisam-data-pointer-size=#"
+        },
+        {
+            "System Variable": "myisam_data_pointer_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "6"
+        },
+        {
+            "Minimum Value": "2"
+        },
+        {
+            "Maximum Value": "7"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--myisam-max-sort-file-size=#"
+        },
+        {
+            "System Variable": "myisam_max_sort_file_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value (Windows)": "2146435072"
+        },
+        {
+            "Default Value (Other, 64-bit platforms)": "9223372036853727232"
+        },
+        {
+            "Default Value (Other, 32-bit platforms)": "2147483648"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value (Windows)": "2146435072"
+        },
+        {
+            "Maximum Value (Other, 64-bit platforms)": "9223372036853727232"
+        },
+        {
+            "Maximum Value (Other, 32-bit platforms)": "2147483648"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--myisam-mmap-size=#"
+        },
+        {
+            "System Variable": "myisam_mmap_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Default Value (32-bit platforms)": "4294967295"
+        },
+        {
+            "Minimum Value": "7"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--myisam-recover-options[=list]"
+        },
+        {
+            "System Variable": "myisam_recover_options"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "OFF"
+        },
+        {
+            "Valid Values": "OFF\nDEFAULT\nBACKUP\nFORCE\nQUICK"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--myisam-repair-threads=#"
+        },
+        {
+            "Deprecated": "8.0.29 (removed in 8.0.30)"
+        },
+        {
+            "System Variable": "myisam_repair_threads"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--myisam-sort-buffer-size=#"
+        },
+        {
+            "System Variable": "myisam_sort_buffer_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "8388608"
+        },
+        {
+            "Minimum Value": "4096"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--myisam-stats-method=name"
+        },
+        {
+            "System Variable": "myisam_stats_method"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "nulls_unequal"
+        },
+        {
+            "Valid Values": "nulls_unequal\nnulls_equal\nnulls_ignored"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--myisam-use-mmap[={OFF|ON}]"
+        },
+        {
+            "System Variable": "myisam_use_mmap"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--mysql-native-password-proxy-users[={OFF|ON}]"
+        },
+        {
+            "System Variable": "mysql_native_password_proxy_users"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--named-pipe[={OFF|ON}]"
+        },
+        {
+            "System Variable": "named_pipe"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Platform Specific": "Windows"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--named-pipe-full-access-group=value"
+        },
+        {
+            "Introduced": "8.0.14"
+        },
+        {
+            "System Variable": "named_pipe_full_access_group"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Platform Specific": "Windows"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "empty string"
+        },
+        {
+            "Valid Values": "empty string\nvalid Windows local group name\n*everyone*"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--net-buffer-length=#"
+        },
+        {
+            "System Variable": "net_buffer_length"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "16384"
+        },
+        {
+            "Minimum Value": "1024"
+        },
+        {
+            "Maximum Value": "1048576"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--net-read-timeout=#"
+        },
+        {
+            "System Variable": "net_read_timeout"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "30"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--net-retry-count=#"
+        },
+        {
+            "System Variable": "net_retry_count"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "10"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--net-write-timeout=#"
+        },
+        {
+            "System Variable": "net_write_timeout"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "60"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--new[={OFF|ON}]"
+        },
+        {
+            "System Variable": "new"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Disabled by": "skip-new"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ngram-token-size=#"
+        },
+        {
+            "System Variable": "ngram_token_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "2"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "10"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--offline-mode[={OFF|ON}]"
+        },
+        {
+            "System Variable": "offline_mode"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--old[={OFF|ON}]"
+        },
+        {
+            "System Variable": "old"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--old-alter-table[={OFF|ON}]"
+        },
+        {
+            "System Variable": "old_alter_table"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--open-files-limit=#"
+        },
+        {
+            "System Variable": "open_files_limit"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "5000, with possible adjustment"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "platform dependent"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--optimizer-prune-level=#"
+        },
+        {
+            "System Variable": "optimizer_prune_level"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "1"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--optimizer-search-depth=#"
+        },
+        {
+            "System Variable": "optimizer_search_depth"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "62"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "62"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--optimizer-switch=value"
+        },
+        {
+            "System Variable": "optimizer_switch"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Set"
+        },
+        {
+            "Valid Values (\u2265 8.0.22)": "batched_key_access={on|off}\nblock_nested_loop={on|off}\ncondition_fanout_filter={on|off}\nderived_condition_pushdown={on|off}\nderived_merge={on|off}\nduplicateweedout={on|off}\nengine_condition_pushdown={on|off}\nfirstmatch={on|off}\nhash_join={on|off}\nindex_condition_pushdown={on|off}\nindex_merge={on|off}\nindex_merge_intersection={on|off}\nindex_merge_sort_union={on|off}\nindex_merge_union={on|off}\nloosescan={on|off}\nmaterialization={on|off}\nmrr={on|off}\nmrr_cost_based={on|off}\nprefer_ordering_index={on|off}\nsemijoin={on|off}\nskip_scan={on|off}\nsubquery_materialization_cost_based={on|off}\nsubquery_to_derived={on|off}\nuse_index_extensions={on|off}\nuse_invisible_indexes={on|off}"
+        },
+        {
+            "Valid Values (\u2265 8.0.21)": "batched_key_access={on|off}\nblock_nested_loop={on|off}\ncondition_fanout_filter={on|off}\nderived_merge={on|off}\nduplicateweedout={on|off}\nengine_condition_pushdown={on|off}\nfirstmatch={on|off}\nhash_join={on|off}\nindex_condition_pushdown={on|off}\nindex_merge={on|off}\nindex_merge_intersection={on|off}\nindex_merge_sort_union={on|off}\nindex_merge_union={on|off}\nloosescan={on|off}\nmaterialization={on|off}\nmrr={on|off}\nmrr_cost_based={on|off}\nprefer_ordering_index={on|off}\nsemijoin={on|off}\nskip_scan={on|off}\nsubquery_materialization_cost_based={on|off}\nsubquery_to_derived={on|off}\nuse_index_extensions={on|off}\nuse_invisible_indexes={on|off}"
+        },
+        {
+            "Valid Values (\u2265 8.0.18)": "batched_key_access={on|off}\nblock_nested_loop={on|off}\ncondition_fanout_filter={on|off}\nderived_merge={on|off}\nduplicateweedout={on|off}\nengine_condition_pushdown={on|off}\nfirstmatch={on|off}\nhash_join={on|off}\nindex_condition_pushdown={on|off}\nindex_merge={on|off}\nindex_merge_intersection={on|off}\nindex_merge_sort_union={on|off}\nindex_merge_union={on|off}\nloosescan={on|off}\nmaterialization={on|off}\nmrr={on|off}\nmrr_cost_based={on|off}\nsemijoin={on|off}\nskip_scan={on|off}\nsubquery_materialization_cost_based={on|off}\nuse_index_extensions={on|off}\nuse_invisible_indexes={on|off}"
+        },
+        {
+            "Valid Values (\u2265 8.0.13)": "batched_key_access={on|off}\nblock_nested_loop={on|off}\ncondition_fanout_filter={on|off}\nderived_merge={on|off}\nduplicateweedout={on|off}\nengine_condition_pushdown={on|off}\nfirstmatch={on|off}\nindex_condition_pushdown={on|off}\nindex_merge={on|off}\nindex_merge_intersection={on|off}\nindex_merge_sort_union={on|off}\nindex_merge_union={on|off}\nloosescan={on|off}\nmaterialization={on|off}\nmrr={on|off}\nmrr_cost_based={on|off}\nsemijoin={on|off}\nskip_scan={on|off}\nsubquery_materialization_cost_based={on|off}\nuse_index_extensions={on|off}\nuse_invisible_indexes={on|off}"
+        },
+        {
+            "Valid Values (\u2264 8.0.12)": "batched_key_access={on|off}\nblock_nested_loop={on|off}\ncondition_fanout_filter={on|off}\nderived_merge={on|off}\nduplicateweedout={on|off}\nengine_condition_pushdown={on|off}\nfirstmatch={on|off}\nindex_condition_pushdown={on|off}\nindex_merge={on|off}\nindex_merge_intersection={on|off}\nindex_merge_sort_union={on|off}\nindex_merge_union={on|off}\nloosescan={on|off}\nmaterialization={on|off}\nmrr={on|off}\nmrr_cost_based={on|off}\nsemijoin={on|off}\nsubquery_materialization_cost_based={on|off}\nuse_index_extensions={on|off}\nuse_invisible_indexes={on|off}"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--optimizer-trace=value"
+        },
+        {
+            "System Variable": "optimizer_trace"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--optimizer-trace-features=value"
+        },
+        {
+            "System Variable": "optimizer_trace_features"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--optimizer-trace-limit=#"
+        },
+        {
+            "System Variable": "optimizer_trace_limit"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "2147483647"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--optimizer-trace-max-mem-size=#"
+        },
+        {
+            "System Variable": "optimizer_trace_max_mem_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1048576"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--optimizer-trace-offset=#"
+        },
+        {
+            "System Variable": "optimizer_trace_offset"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "-1"
+        },
+        {
+            "Minimum Value": "-2147483647"
+        },
+        {
+            "Maximum Value": "2147483647"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--parser-max-mem-size=#"
+        },
+        {
+            "System Variable": "parser_max_mem_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Default Value (32-bit platforms)": "4294967295"
+        },
+        {
+            "Minimum Value": "10000000"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--partial-revokes[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.16"
+        },
+        {
+            "System Variable": "partial_revokes"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF (if partial revokes do not exist)\n                            \nON (if partial revokes exist)"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--password-history=#"
+        },
+        {
+            "System Variable": "password_history"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--password-require-current[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.13"
+        },
+        {
+            "System Variable": "password_require_current"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--password-reuse-interval=#"
+        },
+        {
+            "System Variable": "password_reuse_interval"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        },
+        {
+            "Unit": "days"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--persisted-globals-load[={OFF|ON}]"
+        },
+        {
+            "System Variable": "persisted_globals_load"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--persist-only-admin-x509-subject=string"
+        },
+        {
+            "Introduced": "8.0.14"
+        },
+        {
+            "System Variable": "persist_only_admin_x509_subject"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "empty string"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--persist_sensitive_variables_in_plaintext[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.29"
+        },
+        {
+            "System Variable": "persist_sensitive_variables_in_plaintext"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--pid-file=file_name"
+        },
+        {
+            "System Variable": "pid_file"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--plugin-dir=dir_name"
+        },
+        {
+            "System Variable": "plugin_dir"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Directory name"
+        },
+        {
+            "Default Value": "BASEDIR/lib/plugin"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--port=port_num"
+        },
+        {
+            "System Variable": "port"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "3306"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "65535"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--preload-buffer-size=#"
+        },
+        {
+            "System Variable": "preload_buffer_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "32768"
+        },
+        {
+            "Minimum Value": "1024"
+        },
+        {
+            "Maximum Value": "1073741824"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--print-identified-with-as-hex[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.17"
+        },
+        {
+            "System Variable": "print_identified_with_as_hex"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--protocol-compression-algorithms=value"
+        },
+        {
+            "Introduced": "8.0.18"
+        },
+        {
+            "System Variable": "protocol_compression_algorithms"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Set"
+        },
+        {
+            "Default Value": "zlib,zstd,uncompressed"
+        },
+        {
+            "Valid Values": "zlib\nzstd\nuncompressed"
+        }
+    ],
+    [
+        {
+            "System Variable": "protocol_version"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "10"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "System Variable": "proxy_user"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Introduced": "8.0.26"
+        },
+        {
+            "System Variable": "pseudo_replica_mode"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        }
+    ],
+    [
+        {
+            "Deprecated": "8.0.26"
+        },
+        {
+            "System Variable": "pseudo_slave_mode"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        }
+    ],
+    [
+        {
+            "System Variable": "pseudo_thread_id"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "2147483647"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "2147483647"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--query-alloc-block-size=#"
+        },
+        {
+            "System Variable": "query_alloc_block_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "8192"
+        },
+        {
+            "Minimum Value": "1024"
+        },
+        {
+            "Maximum Value": "4294966272"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--query-prealloc-size=#"
+        },
+        {
+            "Deprecated": "8.0.29"
+        },
+        {
+            "System Variable": "query_prealloc_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "8192"
+        },
+        {
+            "Minimum Value": "8192"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709550592"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294966272"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "System Variable": "rand_seed1"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "N/A"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--range-alloc-block-size=#"
+        },
+        {
+            "System Variable": "range_alloc_block_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "4096"
+        },
+        {
+            "Minimum Value": "4096"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709550592"
+        },
+        {
+            "Maximum Value": "4294966272"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--range-optimizer-max-mem-size=#"
+        },
+        {
+            "System Variable": "range_optimizer_max_mem_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "8388608"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "18446744073709551615"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "System Variable": "rbr_exec_mode"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "STRICT"
+        },
+        {
+            "Valid Values": "STRICT\nIDEMPOTENT"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--read-buffer-size=#"
+        },
+        {
+            "System Variable": "read_buffer_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "131072"
+        },
+        {
+            "Minimum Value": "8192"
+        },
+        {
+            "Maximum Value": "2147479552"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "4096"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--read-only[={OFF|ON}]"
+        },
+        {
+            "System Variable": "read_only"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--read-rnd-buffer-size=#"
+        },
+        {
+            "System Variable": "read_rnd_buffer_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "262144"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "2147483647"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--regexp-stack-limit=#"
+        },
+        {
+            "System Variable": "regexp_stack_limit"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "8000000"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "2147483647"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--regexp-time-limit=#"
+        },
+        {
+            "System Variable": "regexp_time_limit"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "32"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "2147483647"
+        }
+    ],
+    [
+        {
+            "Introduced": "8.0.19"
+        },
+        {
+            "System Variable": "require_row_format"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--require-secure-transport[={OFF|ON}]"
+        },
+        {
+            "System Variable": "require_secure_transport"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "System Variable": "resultset_metadata"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "FULL"
+        },
+        {
+            "Valid Values": "FULL\nNONE"
+        }
+    ],
+    [
+        {
+            "Introduced": "8.0.16"
+        },
+        {
+            "System Variable": "secondary_engine_cost_threshold"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Numeric"
+        },
+        {
+            "Default Value": "100000.000000"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "DBL_MAX (maximum double value)"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--schema-definition-cache=#"
+        },
+        {
+            "System Variable": "schema_definition_cache"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "256"
+        },
+        {
+            "Minimum Value": "256"
+        },
+        {
+            "Maximum Value": "524288"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--secure-file-priv=dir_name"
+        },
+        {
+            "System Variable": "secure_file_priv"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "platform specific"
+        },
+        {
+            "Valid Values": "empty string\ndirname\nNULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--select-into-buffer-size=#"
+        },
+        {
+            "Introduced": "8.0.22"
+        },
+        {
+            "System Variable": "select_into_buffer_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "131072"
+        },
+        {
+            "Minimum Value": "8192"
+        },
+        {
+            "Maximum Value": "2147479552"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "4096"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--select-into-disk-sync={ON|OFF}"
+        },
+        {
+            "Introduced": "8.0.22"
+        },
+        {
+            "System Variable": "select_into_disk_sync"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        },
+        {
+            "Valid Values": "OFF\nON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--select-into-disk-sync-delay=#"
+        },
+        {
+            "Introduced": "8.0.22"
+        },
+        {
+            "System Variable": "select_into_disk_sync_delay"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "milliseconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--session-track-gtids=value"
+        },
+        {
+            "System Variable": "session_track_gtids"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "OFF"
+        },
+        {
+            "Valid Values": "OFF\nOWN_GTID\nALL_GTIDS"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--session-track-schema[={OFF|ON}]"
+        },
+        {
+            "System Variable": "session_track_schema"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--session-track-state-change[={OFF|ON}]"
+        },
+        {
+            "System Variable": "session_track_state_change"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--session-track-system-variables=#"
+        },
+        {
+            "System Variable": "session_track_system_variables"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "time_zone, autocommit, character_set_client, character_set_results, character_set_connection"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--session-track-transaction-info=value"
+        },
+        {
+            "System Variable": "session_track_transaction_info"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "OFF"
+        },
+        {
+            "Valid Values": "OFF\nSTATE\nCHARACTERISTICS"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sha256-password-auto-generate-rsa-keys[={OFF|ON}]"
+        },
+        {
+            "System Variable": "sha256_password_auto_generate_rsa_keys"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sha256-password-private-key-path=file_name"
+        },
+        {
+            "System Variable": "sha256_password_private_key_path"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "private_key.pem"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sha256-password-proxy-users[={OFF|ON}]"
+        },
+        {
+            "System Variable": "sha256_password_proxy_users"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sha256-password-public-key-path=file_name"
+        },
+        {
+            "System Variable": "sha256_password_public_key_path"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "public_key.pem"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--shared-memory[={OFF|ON}]"
+        },
+        {
+            "System Variable": "shared_memory"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Platform Specific": "Windows"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--shared-memory-base-name=name"
+        },
+        {
+            "System Variable": "shared_memory_base_name"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Platform Specific": "Windows"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "MYSQL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--show-create-table-skip-secondary-engine[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.18"
+        },
+        {
+            "System Variable": "show_create_table_skip_secondary_engine"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--show-create-table-verbosity[={OFF|ON}]"
+        },
+        {
+            "System Variable": "show_create_table_verbosity"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--show-gipk-in-create-table-and-information-schema[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.30"
+        },
+        {
+            "System Variable": "show_gipk_in_create_table_and_information_schema"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--show-old-temporals[={OFF|ON}]"
+        },
+        {
+            "Deprecated": "Yes"
+        },
+        {
+            "System Variable": "show_old_temporals"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--skip-external-locking[={OFF|ON}]"
+        },
+        {
+            "System Variable": "skip_external_locking"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--skip-name-resolve[={OFF|ON}]"
+        },
+        {
+            "System Variable": "skip_name_resolve"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--skip-networking[={OFF|ON}]"
+        },
+        {
+            "System Variable": "skip_networking"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--skip-show-database"
+        },
+        {
+            "System Variable": "skip_show_database"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slow-launch-time=#"
+        },
+        {
+            "System Variable": "slow_launch_time"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "2"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slow-query-log[={OFF|ON}]"
+        },
+        {
+            "System Variable": "slow_query_log"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slow-query-log-file=file_name"
+        },
+        {
+            "System Variable": "slow_query_log_file"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "host_name-slow.log"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--socket={file_name|pipe_name}"
+        },
+        {
+            "System Variable": "socket"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value (Windows)": "MySQL"
+        },
+        {
+            "Default Value (Other)": "/tmp/mysql.sock"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sort-buffer-size=#"
+        },
+        {
+            "System Variable": "sort_buffer_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "262144"
+        },
+        {
+            "Minimum Value": "32768"
+        },
+        {
+            "Maximum Value (Windows)": "4294967295"
+        },
+        {
+            "Maximum Value (Other, 64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (Other, 32-bit platforms)": "4294967295"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "System Variable": "sql_auto_is_null"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "System Variable": "sql_big_selects"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "System Variable": "sql_buffer_result"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sql-generate-invisible-primary-key[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.30"
+        },
+        {
+            "System Variable": "sql_generate_invisible_primary_key"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "System Variable": "sql_log_off"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        },
+        {
+            "Valid Values": "OFF (enable logging)\nON (disable logging)"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sql-mode=name"
+        },
+        {
+            "System Variable": "sql_mode"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Set"
+        },
+        {
+            "Default Value": "ONLY_FULL_GROUP_BY STRICT_TRANS_TABLES NO_ZERO_IN_DATE NO_ZERO_DATE ERROR_FOR_DIVISION_BY_ZERO NO_ENGINE_SUBSTITUTION"
+        },
+        {
+            "Valid Values": "ALLOW_INVALID_DATES\nANSI_QUOTES\nERROR_FOR_DIVISION_BY_ZERO\nHIGH_NOT_PRECEDENCE\nIGNORE_SPACE\nNO_AUTO_VALUE_ON_ZERO\nNO_BACKSLASH_ESCAPES\nNO_DIR_IN_CREATE\nNO_ENGINE_SUBSTITUTION\nNO_UNSIGNED_SUBTRACTION\nNO_ZERO_DATE\nNO_ZERO_IN_DATE\nONLY_FULL_GROUP_BY\nPAD_CHAR_TO_FULL_LENGTH\nPIPES_AS_CONCAT\nREAL_AS_FLOAT\nSTRICT_ALL_TABLES\nSTRICT_TRANS_TABLES\nTIME_TRUNCATE_FRACTIONAL"
+        }
+    ],
+    [
+        {
+            "System Variable": "sql_notes"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "System Variable": "sql_quote_show_create"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sql-require-primary-key[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.13"
+        },
+        {
+            "System Variable": "sql_require_primary_key"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "System Variable": "sql_safe_updates"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "System Variable": "sql_select_limit"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "18446744073709551615"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "18446744073709551615"
+        }
+    ],
+    [
+        {
+            "System Variable": "sql_warnings"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ssl-ca=file_name"
+        },
+        {
+            "System Variable": "ssl_ca"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic (\u2265 8.0.16)": "Yes"
+        },
+        {
+            "Dynamic (\u2264 8.0.15)": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ssl-capath=dir_name"
+        },
+        {
+            "System Variable": "ssl_capath"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic (\u2265 8.0.16)": "Yes"
+        },
+        {
+            "Dynamic (\u2264 8.0.15)": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Directory name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ssl-cert=file_name"
+        },
+        {
+            "System Variable": "ssl_cert"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic (\u2265 8.0.16)": "Yes"
+        },
+        {
+            "Dynamic (\u2264 8.0.15)": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ssl-cipher=name"
+        },
+        {
+            "System Variable": "ssl_cipher"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic (\u2265 8.0.16)": "Yes"
+        },
+        {
+            "Dynamic (\u2264 8.0.15)": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ssl-crl=file_name"
+        },
+        {
+            "System Variable": "ssl_crl"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic (\u2265 8.0.16)": "Yes"
+        },
+        {
+            "Dynamic (\u2264 8.0.15)": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ssl-crlpath=dir_name"
+        },
+        {
+            "System Variable": "ssl_crlpath"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic (\u2265 8.0.16)": "Yes"
+        },
+        {
+            "Dynamic (\u2264 8.0.15)": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Directory name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ssl-fips-mode={OFF|ON|STRICT}"
+        },
+        {
+            "System Variable": "ssl_fips_mode"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "OFF"
+        },
+        {
+            "Valid Values": "OFF (or 0)\nON (or 1)\nSTRICT (or 2)"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ssl-key=file_name"
+        },
+        {
+            "System Variable": "ssl_key"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic (\u2265 8.0.16)": "Yes"
+        },
+        {
+            "Dynamic (\u2264 8.0.15)": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ssl_session_cache_mode={ON|OFF}"
+        },
+        {
+            "Introduced": "8.0.29"
+        },
+        {
+            "System Variable": "ssl_session_cache_mode"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        },
+        {
+            "Valid Values": "ON\nOFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--ssl_session_cache_timeout"
+        },
+        {
+            "Introduced": "8.0.29"
+        },
+        {
+            "System Variable": "ssl_session_cache_timeout"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "300"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "84600"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--stored-program-cache=#"
+        },
+        {
+            "System Variable": "stored_program_cache"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "256"
+        },
+        {
+            "Minimum Value": "16"
+        },
+        {
+            "Maximum Value": "524288"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--stored-program-definition-cache=#"
+        },
+        {
+            "System Variable": "stored_program_definition_cache"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "256"
+        },
+        {
+            "Minimum Value": "256"
+        },
+        {
+            "Maximum Value": "524288"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--super-read-only[={OFF|ON}]"
+        },
+        {
+            "System Variable": "super_read_only"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--syseventlog.facility=value"
+        },
+        {
+            "Introduced": "8.0.13"
+        },
+        {
+            "System Variable": "syseventlog.facility"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "daemon"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--syseventlog.include-pid[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.13"
+        },
+        {
+            "System Variable": "syseventlog.include_pid"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--syseventlog.tag=tag"
+        },
+        {
+            "Introduced": "8.0.13"
+        },
+        {
+            "System Variable": "syseventlog.tag"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "empty string"
+        }
+    ],
+    [
+        {
+            "System Variable": "system_time_zone"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--table-definition-cache=#"
+        },
+        {
+            "System Variable": "table_definition_cache"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "-1 (signifies autosizing; do not assign this literal value)"
+        },
+        {
+            "Minimum Value": "400"
+        },
+        {
+            "Maximum Value": "524288"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--table-encryption-privilege-check[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.16"
+        },
+        {
+            "System Variable": "table_encryption_privilege_check"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--table-open-cache=#"
+        },
+        {
+            "System Variable": "table_open_cache"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "4000"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "524288"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--table-open-cache-instances=#"
+        },
+        {
+            "System Variable": "table_open_cache_instances"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "16"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "64"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--tablespace-definition-cache=#"
+        },
+        {
+            "System Variable": "tablespace_definition_cache"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "256"
+        },
+        {
+            "Minimum Value": "256"
+        },
+        {
+            "Maximum Value": "524288"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--temptable-max-mmap=#"
+        },
+        {
+            "Introduced": "8.0.23"
+        },
+        {
+            "System Variable": "temptable_max_mmap"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1073741824"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "2^64-1"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--temptable-max-ram=#"
+        },
+        {
+            "System Variable": "temptable_max_ram"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1073741824"
+        },
+        {
+            "Minimum Value": "2097152"
+        },
+        {
+            "Maximum Value": "2^64-1"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--temptable-use-mmap[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.16"
+        },
+        {
+            "Deprecated": "8.0.26"
+        },
+        {
+            "System Variable": "temptable_use_mmap"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-cache-size=#"
+        },
+        {
+            "System Variable": "thread_cache_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "-1 (signifies autosizing; do not assign this literal value)"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "16384"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-handling=name"
+        },
+        {
+            "System Variable": "thread_handling"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "one-thread-per-connection"
+        },
+        {
+            "Valid Values": "no-threads\none-thread-per-connection\nloaded-dynamically"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-algorithm=#"
+        },
+        {
+            "System Variable": "thread_pool_algorithm"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "1"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-dedicated-listeners"
+        },
+        {
+            "Introduced": "8.0.23"
+        },
+        {
+            "System Variable": "thread_pool_dedicated_listeners"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-high-priority-connection=#"
+        },
+        {
+            "System Variable": "thread_pool_high_priority_connection"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "1"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-max-active-query-threads"
+        },
+        {
+            "Introduced": "8.0.19"
+        },
+        {
+            "System Variable": "thread_pool_max_active_query_threads"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "512"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-max-transactions-limit"
+        },
+        {
+            "Introduced": "8.0.23"
+        },
+        {
+            "System Variable": "thread_pool_max_transactions_limit"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "1000000"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-max-unused-threads=#"
+        },
+        {
+            "System Variable": "thread_pool_max_unused_threads"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4096"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-prio-kickup-timer=#"
+        },
+        {
+            "System Variable": "thread_pool_prio_kickup_timer"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1000"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967294"
+        },
+        {
+            "Unit": "milliseconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-query-threads-per-group"
+        },
+        {
+            "Introduced": "8.0.31"
+        },
+        {
+            "System Variable": "thread_pool_query_threads_per_group"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "4096"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-size=#"
+        },
+        {
+            "System Variable": "thread_pool_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "16"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value (\u2265 8.0.19)": "512"
+        },
+        {
+            "Maximum Value (\u2264 8.0.18)": "64"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-stall-limit=#"
+        },
+        {
+            "System Variable": "thread_pool_stall_limit"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "6"
+        },
+        {
+            "Minimum Value": "4"
+        },
+        {
+            "Maximum Value": "600"
+        },
+        {
+            "Unit": "milliseconds * 10"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-pool-transaction-delay"
+        },
+        {
+            "Introduced": "8.0.31"
+        },
+        {
+            "System Variable": "thread_pool_transaction_delay"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "300000"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--thread-stack=#"
+        },
+        {
+            "System Variable": "thread_stack"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value (64-bit platforms, \u2265 8.0.27)": "1048576"
+        },
+        {
+            "Default Value (64-bit platforms, \u2264 8.0.26)": "286720"
+        },
+        {
+            "Default Value (32-bit platforms, \u2265 8.0.27)": "1048576"
+        },
+        {
+            "Default Value (32-bit platforms, \u2264 8.0.26)": "221184"
+        },
+        {
+            "Minimum Value": "131072"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709550592"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294966272"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "System Variable": "time_zone"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies (\u2265 8.0.17)": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies (\u2264 8.0.16)": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "SYSTEM"
+        },
+        {
+            "Minimum Value (\u2265 8.0.19)": "-13:59"
+        },
+        {
+            "Minimum Value (\u2264 8.0.18)": "-12:59"
+        },
+        {
+            "Maximum Value (\u2265 8.0.19)": "+14:00"
+        },
+        {
+            "Maximum Value (\u2264 8.0.18)": "+13:00"
+        }
+    ],
+    [
+        {
+            "System Variable": "timestamp"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Numeric"
+        },
+        {
+            "Default Value": "UNIX_TIMESTAMP()"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "2147483647"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--tls-ciphersuites=ciphersuite_list"
+        },
+        {
+            "Introduced": "8.0.16"
+        },
+        {
+            "System Variable": "tls_ciphersuites"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "NULL"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--tls-version=protocol_list"
+        },
+        {
+            "System Variable": "tls_version"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic (\u2265 8.0.16)": "Yes"
+        },
+        {
+            "Dynamic (\u2264 8.0.15)": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value (\u2265 8.0.28)": "TLSv1.2,TLSv1.3"
+        },
+        {
+            "Default Value (\u2265 8.0.16, \u2264 8.0.27)": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3"
+        },
+        {
+            "Default Value (\u2264 8.0.15)": "TLSv1,TLSv1.1,TLSv1.2"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--tmp-table-size=#"
+        },
+        {
+            "System Variable": "tmp_table_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "16777216"
+        },
+        {
+            "Minimum Value": "1024"
+        },
+        {
+            "Maximum Value": "18446744073709551615"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--tmpdir=dir_name"
+        },
+        {
+            "System Variable": "tmpdir"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Directory name"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--transaction-alloc-block-size=#"
+        },
+        {
+            "System Variable": "transaction_alloc_block_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "8192"
+        },
+        {
+            "Minimum Value": "1024"
+        },
+        {
+            "Maximum Value": "131072"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--transaction-isolation=name"
+        },
+        {
+            "System Variable": "transaction_isolation"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "REPEATABLE-READ"
+        },
+        {
+            "Valid Values": "READ-UNCOMMITTED\nREAD-COMMITTED\nREPEATABLE-READ\nSERIALIZABLE"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--transaction-prealloc-size=#"
+        },
+        {
+            "Deprecated": "8.0.29"
+        },
+        {
+            "System Variable": "transaction_prealloc_size"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "4096"
+        },
+        {
+            "Minimum Value": "1024"
+        },
+        {
+            "Maximum Value": "131072"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--transaction-read-only[={OFF|ON}]"
+        },
+        {
+            "System Variable": "transaction_read_only"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "System Variable": "unique_checks"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--updatable-views-with-limit[={OFF|ON}]"
+        },
+        {
+            "System Variable": "updatable_views_with_limit"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "1"
+        }
+    ],
+    [
+        {
+            "Introduced": "8.0.13"
+        },
+        {
+            "System Variable": "use_secondary_engine"
+        },
+        {
+            "Scope": "Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "ON"
+        },
+        {
+            "Valid Values": "OFF\nON\nFORCED"
+        }
+    ],
+    [
+        {
+            "System Variable": "version_comment"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "System Variable": "version_compile_machine"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "System Variable": "version_compile_os"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "System Variable": "version_compile_zlib"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--wait-timeout=#"
+        },
+        {
+            "System Variable": "wait_timeout"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "28800"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value (Windows)": "2147483"
+        },
+        {
+            "Maximum Value (Other)": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--windowing-use-high-precision[={OFF|ON}]"
+        },
+        {
+            "System Variable": "windowing_use_high_precision"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--xa-detach-on-prepare[={OFF|ON}]"
+        },
+        {
+            "Introduced": "8.0.29"
+        },
+        {
+            "System Variable": "xa_detach_on_prepare"
+        },
+        {
+            "Scope": "Global, Session"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "SET_VAR Hint Applies": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ]
+]

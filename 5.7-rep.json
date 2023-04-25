@@ -1,0 +1,960 @@
+[
+    [
+        {
+            "Command-Line Format": "--init-slave=name"
+        },
+        {
+            "System Variable": "init_slave"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--log-slow-slave-statements[={OFF|ON}]"
+        },
+        {
+            "System Variable": "log_slow_slave_statements"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--master-info-repository={FILE|TABLE}"
+        },
+        {
+            "System Variable": "master_info_repository"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "FILE"
+        },
+        {
+            "Valid Values": "FILETABLE"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--max-relay-log-size=#"
+        },
+        {
+            "System Variable": "max_relay_log_size"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "1073741824"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "4096"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--relay-log=file_name"
+        },
+        {
+            "System Variable": "relay_log"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "File name"
+        }
+    ],
+    [
+        {
+            "System Variable": "relay_log_basename"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "datadir + '/' + hostname + '-relay-bin'"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--relay-log-index=file_name"
+        },
+        {
+            "System Variable": "relay_log_index"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "*host_name*-relay-bin.index"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--relay-log-info-file=file_name"
+        },
+        {
+            "System Variable": "relay_log_info_file"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "File name"
+        },
+        {
+            "Default Value": "relay-log.info"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--relay-log-info-repository=value"
+        },
+        {
+            "System Variable": "relay_log_info_repository"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "FILE"
+        },
+        {
+            "Valid Values": "FILETABLE"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--relay-log-purge[={OFF|ON}]"
+        },
+        {
+            "System Variable": "relay_log_purge"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--relay-log-recovery[={OFF|ON}]"
+        },
+        {
+            "System Variable": "relay_log_recovery"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--relay-log-space-limit=#"
+        },
+        {
+            "System Variable": "relay_log_space_limit"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "18446744073709551615"
+        },
+        {
+            "Unit": "bytes"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--replication-optimize-for-static-plugin-config[={OFF|ON}]"
+        },
+        {
+            "Introduced": "5.7.33"
+        },
+        {
+            "System Variable": "replication_optimize_for_static_plugin_config"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--replication-sender-observe-commit-only[={OFF|ON}]"
+        },
+        {
+            "Introduced": "5.7.33"
+        },
+        {
+            "System Variable": "replication_sender_observe_commit_only"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--report-host=host_name"
+        },
+        {
+            "System Variable": "report_host"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--report-password=name"
+        },
+        {
+            "System Variable": "report_password"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--report-port=port_num"
+        },
+        {
+            "System Variable": "report_port"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "[slave_port]"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "65535"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--report-user=name"
+        },
+        {
+            "System Variable": "report_user"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "String"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--rpl-semi-sync-slave-enabled[={OFF|ON}]"
+        },
+        {
+            "System Variable": "rpl_semi_sync_slave_enabled"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--rpl-semi-sync-slave-trace-level=#"
+        },
+        {
+            "System Variable": "rpl_semi_sync_slave_trace_level"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "32"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--rpl-stop-slave-timeout=#"
+        },
+        {
+            "System Variable": "rpl_stop_slave_timeout"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "31536000"
+        },
+        {
+            "Minimum Value": "2"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-checkpoint-group=#"
+        },
+        {
+            "System Variable": "slave_checkpoint_group"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "512"
+        },
+        {
+            "Minimum Value": "32"
+        },
+        {
+            "Maximum Value": "524280"
+        },
+        {
+            "Block Size": "8"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-checkpoint-period=#"
+        },
+        {
+            "System Variable": "slave_checkpoint_period"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "300"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "4294967295"
+        },
+        {
+            "Unit": "milliseconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-compressed-protocol[={OFF|ON}]"
+        },
+        {
+            "System Variable": "slave_compressed_protocol"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-exec-mode=mode"
+        },
+        {
+            "System Variable": "slave_exec_mode"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "IDEMPOTENT (NDB)STRICT (Other)"
+        },
+        {
+            "Valid Values": "STRICTIDEMPOTENT"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-load-tmpdir=dir_name"
+        },
+        {
+            "System Variable": "slave_load_tmpdir"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "Directory name"
+        },
+        {
+            "Default Value": "Value of --tmpdir"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-max-allowed-packet=#"
+        },
+        {
+            "System Variable": "slave_max_allowed_packet"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "1073741824"
+        },
+        {
+            "Minimum Value": "1024"
+        },
+        {
+            "Maximum Value": "1073741824"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-net-timeout=#"
+        },
+        {
+            "System Variable": "slave_net_timeout"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "60"
+        },
+        {
+            "Minimum Value": "1"
+        },
+        {
+            "Maximum Value": "31536000"
+        },
+        {
+            "Unit": "seconds"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-parallel-type=value"
+        },
+        {
+            "System Variable": "slave_parallel_type"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Enumeration"
+        },
+        {
+            "Default Value": "DATABASE"
+        },
+        {
+            "Valid Values": "DATABASELOGICAL_CLOCK"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-parallel-workers=#"
+        },
+        {
+            "System Variable": "slave_parallel_workers"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "1024"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-pending-jobs-size-max=#"
+        },
+        {
+            "System Variable": "slave_pending_jobs_size_max"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "16M"
+        },
+        {
+            "Minimum Value": "1024"
+        },
+        {
+            "Maximum Value": "16EiB"
+        },
+        {
+            "Unit": "bytes"
+        },
+        {
+            "Block Size": "1024"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-preserve-commit-order[={OFF|ON}]"
+        },
+        {
+            "System Variable": "slave_preserve_commit_order"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "OFF"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-rows-search-algorithms=value"
+        },
+        {
+            "System Variable": "slave_rows_search_algorithms"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Set"
+        },
+        {
+            "Default Value": "TABLE_SCAN,INDEX_SCAN"
+        },
+        {
+            "Valid Values": "TABLE_SCAN,INDEX_SCANINDEX_SCAN,HASH_SCANTABLE_SCAN,HASH_SCANTABLE_SCAN,INDEX_SCAN,HASH_SCAN (equivalent to INDEX_SCAN,HASH_SCAN)"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-skip-errors=name"
+        },
+        {
+            "System Variable": "slave_skip_errors"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "No"
+        },
+        {
+            "Type": "String"
+        },
+        {
+            "Default Value": "OFF"
+        },
+        {
+            "Valid Values": "OFF[list of error codes]allddl_exist_errors"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-sql-verify-checksum[={OFF|ON}]"
+        },
+        {
+            "System Variable": "slave_sql_verify_checksum"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Boolean"
+        },
+        {
+            "Default Value": "ON"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-transaction-retries=#"
+        },
+        {
+            "System Variable": "slave_transaction_retries"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "10"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value (64-bit platforms)": "18446744073709551615"
+        },
+        {
+            "Maximum Value (32-bit platforms)": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--slave-type-conversions=set"
+        },
+        {
+            "System Variable": "slave_type_conversions"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Set"
+        },
+        {
+            "Default Value": ""
+        },
+        {
+            "Valid Values": "ALL_LOSSYALL_NON_LOSSYALL_SIGNEDALL_UNSIGNED"
+        }
+    ],
+    [
+        {
+            "System Variable": "sql_slave_skip_counter"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "0"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sync-master-info=#"
+        },
+        {
+            "System Variable": "sync_master_info"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "10000"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sync-relay-log=#"
+        },
+        {
+            "System Variable": "sync_relay_log"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "10000"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ],
+    [
+        {
+            "Command-Line Format": "--sync-relay-log-info=#"
+        },
+        {
+            "System Variable": "sync_relay_log_info"
+        },
+        {
+            "Scope": "Global"
+        },
+        {
+            "Dynamic": "Yes"
+        },
+        {
+            "Type": "Integer"
+        },
+        {
+            "Default Value": "10000"
+        },
+        {
+            "Minimum Value": "0"
+        },
+        {
+            "Maximum Value": "4294967295"
+        }
+    ]
+]
