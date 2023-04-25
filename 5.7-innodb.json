@@ -1,0 +1,1404 @@
+[
+    {
+        "Command-Line Format": "--daemon-memcached-enable-binlog[={OFF|ON}]",
+        "System Variable": "daemon_memcached_enable_binlog",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--daemon-memcached-engine-lib-name=file_name",
+        "System Variable": "daemon_memcached_engine_lib_name",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "File name",
+        "Default Value": "innodb_engine.so"
+    },
+    {
+        "Command-Line Format": "--daemon-memcached-engine-lib-path=dir_name",
+        "System Variable": "daemon_memcached_engine_lib_path",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Directory name",
+        "Default Value": "NULL"
+    },
+    {
+        "Command-Line Format": "--daemon-memcached-option=options",
+        "System Variable": "daemon_memcached_option",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "String",
+        "Default Value": ""
+    },
+    {
+        "Command-Line Format": "--daemon-memcached-r-batch-size=#",
+        "System Variable": "daemon_memcached_r_batch_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "1",
+        "Minimum Value": "1",
+        "Maximum Value": "1073741824"
+    },
+    {
+        "Command-Line Format": "--daemon-memcached-w-batch-size=#",
+        "System Variable": "daemon_memcached_w_batch_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "1",
+        "Minimum Value": "1",
+        "Maximum Value": "1048576"
+    },
+    {
+        "Command-Line Format": "--ignore-builtin-innodb[={OFF|ON}]",
+        "Deprecated": "Yes",
+        "System Variable": "ignore_builtin_innodb",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean"
+    },
+    {
+        "Command-Line Format": "--innodb-adaptive-flushing[={OFF|ON}]",
+        "System Variable": "innodb_adaptive_flushing",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-adaptive-flushing-lwm=#",
+        "System Variable": "innodb_adaptive_flushing_lwm",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "10",
+        "Minimum Value": "0",
+        "Maximum Value": "70"
+    },
+    {
+        "Command-Line Format": "--innodb-adaptive-hash-index[={OFF|ON}]",
+        "System Variable": "innodb_adaptive_hash_index",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-adaptive-hash-index-parts=#",
+        "System Variable": "innodb_adaptive_hash_index_parts",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Numeric",
+        "Default Value": "8",
+        "Minimum Value": "1",
+        "Maximum Value": "512"
+    },
+    {
+        "Command-Line Format": "--innodb-adaptive-max-sleep-delay=#",
+        "System Variable": "innodb_adaptive_max_sleep_delay",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "150000",
+        "Minimum Value": "0",
+        "Maximum Value": "1000000",
+        "Unit": "microseconds"
+    },
+    {
+        "Command-Line Format": "--innodb-api-bk-commit-interval=#",
+        "System Variable": "innodb_api_bk_commit_interval",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "5",
+        "Minimum Value": "1",
+        "Maximum Value": "1073741824",
+        "Unit": "seconds"
+    },
+    {
+        "Command-Line Format": "--innodb-api-disable-rowlock[={OFF|ON}]",
+        "System Variable": "innodb_api_disable_rowlock",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-api-enable-binlog[={OFF|ON}]",
+        "System Variable": "innodb_api_enable_binlog",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-api-enable-mdl[={OFF|ON}]",
+        "System Variable": "innodb_api_enable_mdl",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-api-trx-level=#",
+        "System Variable": "innodb_api_trx_level",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "3"
+    },
+    {
+        "Command-Line Format": "--innodb-autoextend-increment=#",
+        "System Variable": "innodb_autoextend_increment",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "64",
+        "Minimum Value": "1",
+        "Maximum Value": "1000",
+        "Unit": "megabytes"
+    },
+    {
+        "Command-Line Format": "--innodb-autoinc-lock-mode=#",
+        "System Variable": "innodb_autoinc_lock_mode",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "1",
+        "Valid Values": "012"
+    },
+    {
+        "Command-Line Format": "--innodb-background-drop-list-empty[={OFF|ON}]",
+        "Introduced": "5.7.10",
+        "System Variable": "innodb_background_drop_list_empty",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-buffer-pool-chunk-size=#",
+        "System Variable": "innodb_buffer_pool_chunk_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "134217728",
+        "Minimum Value": "1048576",
+        "Maximum Value": "innodb_buffer_pool_size / innodb_buffer_pool_instances",
+        "Unit": "bytes"
+    },
+    {
+        "Command-Line Format": "--innodb-buffer-pool-dump-at-shutdown[={OFF|ON}]",
+        "System Variable": "innodb_buffer_pool_dump_at_shutdown",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-buffer-pool-dump-now[={OFF|ON}]",
+        "System Variable": "innodb_buffer_pool_dump_now",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-buffer-pool-dump-pct=#",
+        "System Variable": "innodb_buffer_pool_dump_pct",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "25",
+        "Minimum Value": "1",
+        "Maximum Value": "100"
+    },
+    {
+        "Command-Line Format": "--innodb-buffer-pool-filename=file_name",
+        "System Variable": "innodb_buffer_pool_filename",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "File name",
+        "Default Value": "ib_buffer_pool"
+    },
+    {
+        "Command-Line Format": "--innodb-buffer-pool-instances=#",
+        "System Variable": "innodb_buffer_pool_instances",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value (Windows, 32-bit platforms)": "(autosized)",
+        "Default Value (Other)": "8 (or 1 if innodb_buffer_pool_size < 1GB)",
+        "Minimum Value": "1",
+        "Maximum Value": "64"
+    },
+    {
+        "Command-Line Format": "--innodb-buffer-pool-load-abort[={OFF|ON}]",
+        "System Variable": "innodb_buffer_pool_load_abort",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-buffer-pool-load-at-startup[={OFF|ON}]",
+        "System Variable": "innodb_buffer_pool_load_at_startup",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-buffer-pool-load-now[={OFF|ON}]",
+        "System Variable": "innodb_buffer_pool_load_now",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-buffer-pool-size=#",
+        "System Variable": "innodb_buffer_pool_size",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "134217728",
+        "Minimum Value": "5242880",
+        "Maximum Value (64-bit platforms)": "2**64-1",
+        "Maximum Value (32-bit platforms)": "2**32-1",
+        "Unit": "bytes"
+    },
+    {
+        "Command-Line Format": "--innodb-change-buffer-max-size=#",
+        "System Variable": "innodb_change_buffer_max_size",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "25",
+        "Minimum Value": "0",
+        "Maximum Value": "50"
+    },
+    {
+        "Command-Line Format": "--innodb-change-buffering=value",
+        "System Variable": "innodb_change_buffering",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Enumeration",
+        "Default Value": "all",
+        "Valid Values": "noneinsertsdeleteschangespurgesall"
+    },
+    {
+        "Command-Line Format": "--innodb-change-buffering-debug=#",
+        "System Variable": "innodb_change_buffering_debug",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "2"
+    },
+    {
+        "Command-Line Format": "--innodb-checksum-algorithm=value",
+        "System Variable": "innodb_checksum_algorithm",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Enumeration",
+        "Default Value": "crc32",
+        "Valid Values": "crc32strict_crc32innodbstrict_innodbnonestrict_none"
+    },
+    {
+        "Command-Line Format": "--innodb-checksums[={OFF|ON}]",
+        "Deprecated": "Yes",
+        "System Variable": "innodb_checksums",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-cmp-per-index-enabled[={OFF|ON}]",
+        "System Variable": "innodb_cmp_per_index_enabled",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-commit-concurrency=#",
+        "System Variable": "innodb_commit_concurrency",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "1000"
+    },
+    {
+        "Command-Line Format": "--innodb-compress-debug=value",
+        "System Variable": "innodb_compress_debug",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Enumeration",
+        "Default Value": "none",
+        "Valid Values": "nonezliblz4lz4hc"
+    },
+    {
+        "Command-Line Format": "--innodb-compression-failure-threshold-pct=#",
+        "System Variable": "innodb_compression_failure_threshold_pct",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "5",
+        "Minimum Value": "0",
+        "Maximum Value": "100"
+    },
+    {
+        "Command-Line Format": "--innodb-compression-level=#",
+        "System Variable": "innodb_compression_level",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "6",
+        "Minimum Value": "0",
+        "Maximum Value": "9"
+    },
+    {
+        "Command-Line Format": "--innodb-compression-pad-pct-max=#",
+        "System Variable": "innodb_compression_pad_pct_max",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "50",
+        "Minimum Value": "0",
+        "Maximum Value": "75"
+    },
+    {
+        "Command-Line Format": "--innodb-concurrency-tickets=#",
+        "System Variable": "innodb_concurrency_tickets",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "5000",
+        "Minimum Value": "1",
+        "Maximum Value": "4294967295"
+    },
+    {
+        "Command-Line Format": "--innodb-data-file-path=file_name",
+        "System Variable": "innodb_data_file_path",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "String",
+        "Default Value": "ibdata1:12M:autoextend"
+    },
+    {
+        "Command-Line Format": "--innodb-data-home-dir=dir_name",
+        "System Variable": "innodb_data_home_dir",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Directory name"
+    },
+    {
+        "Command-Line Format": "--innodb-deadlock-detect[={OFF|ON}]",
+        "Introduced": "5.7.15",
+        "System Variable": "innodb_deadlock_detect",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-default-row-format=value",
+        "System Variable": "innodb_default_row_format",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Enumeration",
+        "Default Value": "DYNAMIC",
+        "Valid Values": "REDUNDANTCOMPACTDYNAMIC"
+    },
+    {
+        "Command-Line Format": "--innodb-disable-sort-file-cache[={OFF|ON}]",
+        "System Variable": "innodb_disable_sort_file_cache",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-disable-resize-buffer-pool-debug[={OFF|ON}]",
+        "System Variable": "innodb_disable_resize_buffer_pool_debug",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-doublewrite[={OFF|ON}]",
+        "System Variable": "innodb_doublewrite",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-fast-shutdown=#",
+        "System Variable": "innodb_fast_shutdown",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "1",
+        "Valid Values": "012"
+    },
+    {
+        "Command-Line Format": "--innodb-fil-make-page-dirty-debug=#",
+        "System Variable": "innodb_fil_make_page_dirty_debug",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "2**32-1"
+    },
+    {
+        "Command-Line Format": "--innodb-file-format=value",
+        "Deprecated": "Yes",
+        "System Variable": "innodb_file_format",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "String",
+        "Default Value": "Barracuda",
+        "Valid Values": "AntelopeBarracuda"
+    },
+    {
+        "Command-Line Format": "--innodb-file-format-check[={OFF|ON}]",
+        "Deprecated": "Yes",
+        "System Variable": "innodb_file_format_check",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-file-format-max=value",
+        "Deprecated": "Yes",
+        "System Variable": "innodb_file_format_max",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "String",
+        "Default Value": "Barracuda",
+        "Valid Values": "AntelopeBarracuda"
+    },
+    {
+        "Command-Line Format": "--innodb-file-per-table[={OFF|ON}]",
+        "System Variable": "innodb_file_per_table",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-fill-factor=#",
+        "System Variable": "innodb_fill_factor",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "100",
+        "Minimum Value": "10",
+        "Maximum Value": "100"
+    },
+    {
+        "Command-Line Format": "--innodb-flush-log-at-timeout=#",
+        "System Variable": "innodb_flush_log_at_timeout",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "1",
+        "Minimum Value": "1",
+        "Maximum Value": "2700",
+        "Unit": "seconds"
+    },
+    {
+        "Command-Line Format": "--innodb-flush-log-at-trx-commit=#",
+        "System Variable": "innodb_flush_log_at_trx_commit",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Enumeration",
+        "Default Value": "1",
+        "Valid Values": "012"
+    },
+    {
+        "Command-Line Format": "--innodb-flush-method=value",
+        "System Variable": "innodb_flush_method",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "String",
+        "Default Value": "NULL",
+        "Valid Values (Unix)": "fsyncO_DSYNClittlesyncnosyncO_DIRECTO_DIRECT_NO_FSYNC",
+        "Valid Values (Windows)": "async_unbufferednormalunbuffered"
+    },
+    {
+        "Command-Line Format": "--innodb-flush-neighbors=#",
+        "System Variable": "innodb_flush_neighbors",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Enumeration",
+        "Default Value": "1",
+        "Valid Values": "012"
+    },
+    {
+        "Command-Line Format": "--innodb-flush-sync[={OFF|ON}]",
+        "System Variable": "innodb_flush_sync",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-flushing-avg-loops=#",
+        "System Variable": "innodb_flushing_avg_loops",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "30",
+        "Minimum Value": "1",
+        "Maximum Value": "1000"
+    },
+    {
+        "Command-Line Format": "--innodb-force-load-corrupted[={OFF|ON}]",
+        "System Variable": "innodb_force_load_corrupted",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-force-recovery=#",
+        "System Variable": "innodb_force_recovery",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "6"
+    },
+    {
+        "System Variable": "innodb_ft_aux_table",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "String"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-cache-size=#",
+        "System Variable": "innodb_ft_cache_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "8000000",
+        "Minimum Value": "1600000",
+        "Maximum Value": "80000000",
+        "Unit": "bytes"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-enable-diag-print[={OFF|ON}]",
+        "System Variable": "innodb_ft_enable_diag_print",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-enable-stopword[={OFF|ON}]",
+        "System Variable": "innodb_ft_enable_stopword",
+        "Scope": "Global, Session",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-max-token-size=#",
+        "System Variable": "innodb_ft_max_token_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "84",
+        "Minimum Value": "10",
+        "Maximum Value": "84"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-min-token-size=#",
+        "System Variable": "innodb_ft_min_token_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "3",
+        "Minimum Value": "0",
+        "Maximum Value": "16"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-num-word-optimize=#",
+        "System Variable": "innodb_ft_num_word_optimize",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "2000",
+        "Minimum Value": "1000",
+        "Maximum Value": "10000"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-result-cache-limit=#",
+        "System Variable": "innodb_ft_result_cache_limit",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "2000000000",
+        "Minimum Value": "1000000",
+        "Maximum Value": "2**32-1",
+        "Unit": "bytes"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-server-stopword-table=db_name/table_name",
+        "System Variable": "innodb_ft_server_stopword_table",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "String",
+        "Default Value": "NULL"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-sort-pll-degree=#",
+        "System Variable": "innodb_ft_sort_pll_degree",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "2",
+        "Minimum Value": "1",
+        "Maximum Value": "32"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-total-cache-size=#",
+        "System Variable": "innodb_ft_total_cache_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "640000000",
+        "Minimum Value": "32000000",
+        "Maximum Value": "1600000000",
+        "Unit": "bytes"
+    },
+    {
+        "Command-Line Format": "--innodb-ft-user-stopword-table=db_name/table_name",
+        "System Variable": "innodb_ft_user_stopword_table",
+        "Scope": "Global, Session",
+        "Dynamic": "Yes",
+        "Type": "String",
+        "Default Value": "NULL"
+    },
+    {
+        "Command-Line Format": "--innodb-io-capacity=#",
+        "System Variable": "innodb_io_capacity",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "200",
+        "Minimum Value": "100",
+        "Maximum Value (64-bit platforms)": "2**64-1",
+        "Maximum Value (32-bit platforms)": "2**32-1"
+    },
+    {
+        "Command-Line Format": "--innodb-io-capacity-max=#",
+        "System Variable": "innodb_io_capacity_max",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "see description",
+        "Minimum Value": "100",
+        "Maximum Value (32-bit platforms)": "2**32-1",
+        "Maximum Value (Unix, 64-bit platforms)": "2**64-1",
+        "Maximum Value (Windows, 64-bit platforms)": "2**32-1"
+    },
+    {
+        "Command-Line Format": "--innodb-large-prefix[={OFF|ON}]",
+        "Deprecated": "Yes",
+        "System Variable": "innodb_large_prefix",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-limit-optimistic-insert-debug=#",
+        "System Variable": "innodb_limit_optimistic_insert_debug",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "2**32-1"
+    },
+    {
+        "Command-Line Format": "--innodb-lock-wait-timeout=#",
+        "System Variable": "innodb_lock_wait_timeout",
+        "Scope": "Global, Session",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "50",
+        "Minimum Value": "1",
+        "Maximum Value": "1073741824",
+        "Unit": "seconds"
+    },
+    {
+        "Command-Line Format": "--innodb-locks-unsafe-for-binlog[={OFF|ON}]",
+        "Deprecated": "Yes",
+        "System Variable": "innodb_locks_unsafe_for_binlog",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-log-buffer-size=#",
+        "System Variable": "innodb_log_buffer_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "16777216",
+        "Minimum Value": "1048576",
+        "Maximum Value": "4294967295"
+    },
+    {
+        "Command-Line Format": "--innodb-log-checkpoint-now[={OFF|ON}]",
+        "System Variable": "innodb_log_checkpoint_now",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-log-checksums[={OFF|ON}]",
+        "System Variable": "innodb_log_checksums",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-log-compressed-pages[={OFF|ON}]",
+        "System Variable": "innodb_log_compressed_pages",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-log-file-size=#",
+        "System Variable": "innodb_log_file_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "50331648",
+        "Minimum Value (\u2265 5.7.11)": "4194304",
+        "Minimum Value (\u2264 5.7.10)": "1048576",
+        "Maximum Value": "512GB / innodb_log_files_in_group",
+        "Unit": "bytes"
+    },
+    {
+        "Command-Line Format": "--innodb-log-files-in-group=#",
+        "System Variable": "innodb_log_files_in_group",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "2",
+        "Minimum Value": "2",
+        "Maximum Value": "100"
+    },
+    {
+        "Command-Line Format": "--innodb-log-group-home-dir=dir_name",
+        "System Variable": "innodb_log_group_home_dir",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Directory name"
+    },
+    {
+        "Command-Line Format": "--innodb-log-write-ahead-size=#",
+        "System Variable": "innodb_log_write_ahead_size",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "8192",
+        "Minimum Value": "512 (log file block size)",
+        "Maximum Value": "Equal to innodb_page_size",
+        "Unit": "bytes"
+    },
+    {
+        "Command-Line Format": "--innodb-lru-scan-depth=#",
+        "System Variable": "innodb_lru_scan_depth",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "1024",
+        "Minimum Value": "100",
+        "Maximum Value (64-bit platforms)": "2**64-1",
+        "Maximum Value (32-bit platforms)": "2**32-1"
+    },
+    {
+        "Command-Line Format": "--innodb-max-dirty-pages-pct=#",
+        "System Variable": "innodb_max_dirty_pages_pct",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Numeric",
+        "Default Value": "75",
+        "Minimum Value": "0",
+        "Maximum Value": "99.99"
+    },
+    {
+        "Command-Line Format": "--innodb-max-dirty-pages-pct-lwm=#",
+        "System Variable": "innodb_max_dirty_pages_pct_lwm",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Numeric",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "99.99"
+    },
+    {
+        "Command-Line Format": "--innodb-max-purge-lag=#",
+        "System Variable": "innodb_max_purge_lag",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "4294967295"
+    },
+    {
+        "Command-Line Format": "--innodb-max-purge-lag-delay=#",
+        "System Variable": "innodb_max_purge_lag_delay",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "10000000",
+        "Unit": "microseconds"
+    },
+    {
+        "Command-Line Format": "--innodb-max-undo-log-size=#",
+        "System Variable": "innodb_max_undo_log_size",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "1073741824",
+        "Minimum Value": "10485760",
+        "Maximum Value": "2**64-1",
+        "Unit": "bytes"
+    },
+    {
+        "Command-Line Format": "--innodb-merge-threshold-set-all-debug=#",
+        "System Variable": "innodb_merge_threshold_set_all_debug",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "50",
+        "Minimum Value": "1",
+        "Maximum Value": "50"
+    },
+    {
+        "Command-Line Format": "--innodb-monitor-disable={counter|module|pattern|all}",
+        "System Variable": "innodb_monitor_disable",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "String"
+    },
+    {
+        "Command-Line Format": "--innodb-monitor-enable={counter|module|pattern|all}",
+        "System Variable": "innodb_monitor_enable",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "String"
+    },
+    {
+        "Command-Line Format": "--innodb-monitor-reset={counter|module|pattern|all}",
+        "System Variable": "innodb_monitor_reset",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Enumeration",
+        "Default Value": "NULL",
+        "Valid Values": "countermodulepatternall"
+    },
+    {
+        "Command-Line Format": "--innodb-monitor-reset-all={counter|module|pattern|all}",
+        "System Variable": "innodb_monitor_reset_all",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Enumeration",
+        "Default Value": "NULL",
+        "Valid Values": "countermodulepatternall"
+    },
+    {
+        "Command-Line Format": "--innodb-numa-interleave[={OFF|ON}]",
+        "System Variable": "innodb_numa_interleave",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-old-blocks-pct=#",
+        "System Variable": "innodb_old_blocks_pct",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "37",
+        "Minimum Value": "5",
+        "Maximum Value": "95"
+    },
+    {
+        "Command-Line Format": "--innodb-old-blocks-time=#",
+        "System Variable": "innodb_old_blocks_time",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "1000",
+        "Minimum Value": "0",
+        "Maximum Value": "2**32-1",
+        "Unit": "milliseconds"
+    },
+    {
+        "Command-Line Format": "--innodb-online-alter-log-max-size=#",
+        "System Variable": "innodb_online_alter_log_max_size",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "134217728",
+        "Minimum Value": "65536",
+        "Maximum Value": "2**64-1",
+        "Unit": "bytes"
+    },
+    {
+        "Command-Line Format": "--innodb-open-files=#",
+        "System Variable": "innodb_open_files",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "-1 (signifies autosizing; do not assign this literal value)",
+        "Minimum Value": "10",
+        "Maximum Value": "2147483647"
+    },
+    {
+        "Command-Line Format": "--innodb-optimize-fulltext-only[={OFF|ON}]",
+        "System Variable": "innodb_optimize_fulltext_only",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-page-cleaners=#",
+        "System Variable": "innodb_page_cleaners",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "4",
+        "Minimum Value": "1",
+        "Maximum Value": "64"
+    },
+    {
+        "Command-Line Format": "--innodb-page-size=#",
+        "System Variable": "innodb_page_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Enumeration",
+        "Default Value": "16384",
+        "Valid Values": "40968192163843276865536"
+    },
+    {
+        "Command-Line Format": "--innodb-print-all-deadlocks[={OFF|ON}]",
+        "System Variable": "innodb_print_all_deadlocks",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-purge-batch-size=#",
+        "System Variable": "innodb_purge_batch_size",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "300",
+        "Minimum Value": "1",
+        "Maximum Value": "5000"
+    },
+    {
+        "Command-Line Format": "--innodb-purge-threads=#",
+        "System Variable": "innodb_purge_threads",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "4",
+        "Minimum Value": "1",
+        "Maximum Value": "32"
+    },
+    {
+        "Command-Line Format": "--innodb-purge-rseg-truncate-frequency=#",
+        "System Variable": "innodb_purge_rseg_truncate_frequency",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "128",
+        "Minimum Value": "1",
+        "Maximum Value": "128"
+    },
+    {
+        "Command-Line Format": "--innodb-random-read-ahead[={OFF|ON}]",
+        "System Variable": "innodb_random_read_ahead",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-read-ahead-threshold=#",
+        "System Variable": "innodb_read_ahead_threshold",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "56",
+        "Minimum Value": "0",
+        "Maximum Value": "64"
+    },
+    {
+        "Command-Line Format": "--innodb-read-io-threads=#",
+        "System Variable": "innodb_read_io_threads",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "4",
+        "Minimum Value": "1",
+        "Maximum Value": "64"
+    },
+    {
+        "Command-Line Format": "--innodb-read-only[={OFF|ON}]",
+        "System Variable": "innodb_read_only",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-replication-delay=#",
+        "System Variable": "innodb_replication_delay",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "4294967295",
+        "Unit": "milliseconds"
+    },
+    {
+        "Command-Line Format": "--innodb-rollback-on-timeout[={OFF|ON}]",
+        "System Variable": "innodb_rollback_on_timeout",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-rollback-segments=#",
+        "System Variable": "innodb_rollback_segments",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "128",
+        "Minimum Value": "1",
+        "Maximum Value": "128"
+    },
+    {
+        "Command-Line Format": "--innodb-saved-page-number-debug=#",
+        "System Variable": "innodb_saved_page_number_debug",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "2**23-1"
+    },
+    {
+        "Command-Line Format": "--innodb-sort-buffer-size=#",
+        "System Variable": "innodb_sort_buffer_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "1048576",
+        "Minimum Value": "65536",
+        "Maximum Value": "67108864",
+        "Unit": "bytes"
+    },
+    {
+        "Command-Line Format": "--innodb-spin-wait-delay=#",
+        "System Variable": "innodb_spin_wait_delay",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "6",
+        "Minimum Value": "0",
+        "Maximum Value (64-bit platforms)": "2**64-1",
+        "Maximum Value (32-bit platforms)": "2**32-1"
+    },
+    {
+        "Command-Line Format": "--innodb-stats-auto-recalc[={OFF|ON}]",
+        "System Variable": "innodb_stats_auto_recalc",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-stats-include-delete-marked[={OFF|ON}]",
+        "Introduced": "5.7.17",
+        "System Variable": "innodb_stats_include_delete_marked",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-stats-method=value",
+        "System Variable": "innodb_stats_method",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Enumeration",
+        "Default Value": "nulls_equal",
+        "Valid Values": "nulls_equalnulls_unequalnulls_ignored"
+    },
+    {
+        "Command-Line Format": "--innodb-stats-on-metadata[={OFF|ON}]",
+        "System Variable": "innodb_stats_on_metadata",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-stats-persistent[={OFF|ON}]",
+        "System Variable": "innodb_stats_persistent",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-stats-persistent-sample-pages=#",
+        "System Variable": "innodb_stats_persistent_sample_pages",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "20",
+        "Minimum Value": "1",
+        "Maximum Value": "18446744073709551615"
+    },
+    {
+        "Command-Line Format": "--innodb-stats-sample-pages=#",
+        "Deprecated": "Yes",
+        "System Variable": "innodb_stats_sample_pages",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "8",
+        "Minimum Value": "1",
+        "Maximum Value": "2**64-1"
+    },
+    {
+        "Command-Line Format": "--innodb-stats-transient-sample-pages=#",
+        "System Variable": "innodb_stats_transient_sample_pages",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "8",
+        "Minimum Value": "1",
+        "Maximum Value": "18446744073709551615"
+    },
+    {
+        "Command-Line Format": "--innodb-status-output[={OFF|ON}]",
+        "System Variable": "innodb_status_output",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-status-output-locks[={OFF|ON}]",
+        "System Variable": "innodb_status_output_locks",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-strict-mode[={OFF|ON}]",
+        "System Variable": "innodb_strict_mode",
+        "Scope": "Global, Session",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-support-xa[={OFF|ON}]",
+        "Deprecated": "5.7.10",
+        "System Variable": "innodb_support_xa",
+        "Scope": "Global, Session",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-sync-array-size=#",
+        "System Variable": "innodb_sync_array_size",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "1",
+        "Minimum Value": "1",
+        "Maximum Value": "1024"
+    },
+    {
+        "Command-Line Format": "--innodb-sync-spin-loops=#",
+        "System Variable": "innodb_sync_spin_loops",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "30",
+        "Minimum Value": "0",
+        "Maximum Value": "4294967295"
+    },
+    {
+        "Command-Line Format": "--innodb-sync-debug[={OFF|ON}]",
+        "System Variable": "innodb_sync_debug",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-table-locks[={OFF|ON}]",
+        "System Variable": "innodb_table_locks",
+        "Scope": "Global, Session",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-temp-data-file-path=file_name",
+        "System Variable": "innodb_temp_data_file_path",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "String",
+        "Default Value": "ibtmp1:12M:autoextend"
+    },
+    {
+        "Command-Line Format": "--innodb-thread-concurrency=#",
+        "System Variable": "innodb_thread_concurrency",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "1000"
+    },
+    {
+        "Command-Line Format": "--innodb-thread-sleep-delay=#",
+        "System Variable": "innodb_thread_sleep_delay",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "10000",
+        "Minimum Value": "0",
+        "Maximum Value": "1000000",
+        "Unit": "microseconds"
+    },
+    {
+        "Command-Line Format": "--innodb-tmpdir=dir_name",
+        "Introduced": "5.7.11",
+        "System Variable": "innodb_tmpdir",
+        "Scope": "Global, Session",
+        "Dynamic": "Yes",
+        "Type": "Directory name",
+        "Default Value": "NULL"
+    },
+    {
+        "Command-Line Format": "--innodb-trx-purge-view-update-only-debug[={OFF|ON}]",
+        "System Variable": "innodb_trx_purge_view_update_only_debug",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-trx-rseg-n-slots-debug=#",
+        "System Variable": "innodb_trx_rseg_n_slots_debug",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "1024"
+    },
+    {
+        "Command-Line Format": "--innodb-undo-directory=dir_name",
+        "System Variable": "innodb_undo_directory",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Directory name"
+    },
+    {
+        "Command-Line Format": "--innodb-undo-log-truncate[={OFF|ON}]",
+        "System Variable": "innodb_undo_log_truncate",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Boolean",
+        "Default Value": "OFF"
+    },
+    {
+        "Command-Line Format": "--innodb-undo-logs=#",
+        "Deprecated": "5.7.19",
+        "System Variable": "innodb_undo_logs",
+        "Scope": "Global",
+        "Dynamic": "Yes",
+        "Type": "Integer",
+        "Default Value": "128",
+        "Minimum Value": "1",
+        "Maximum Value": "128"
+    },
+    {
+        "Command-Line Format": "--innodb-undo-tablespaces=#",
+        "Deprecated": "5.7.21",
+        "System Variable": "innodb_undo_tablespaces",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "0",
+        "Minimum Value": "0",
+        "Maximum Value": "95"
+    },
+    {
+        "Command-Line Format": "--innodb-use-native-aio[={OFF|ON}]",
+        "System Variable": "innodb_use_native_aio",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Boolean",
+        "Default Value": "ON"
+    },
+    {
+        "Command-Line Format": "--innodb-write-io-threads=#",
+        "System Variable": "innodb_write_io_threads",
+        "Scope": "Global",
+        "Dynamic": "No",
+        "Type": "Integer",
+        "Default Value": "4",
+        "Minimum Value": "1",
+        "Maximum Value": "64"
+    }
+]
